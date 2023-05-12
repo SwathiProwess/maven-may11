@@ -41,7 +41,7 @@
 						<connectedAppClientSecret>${connectedAppClientSecret}</connectedAppClientSecret>
 						<environment>Sandbox</environment>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						<applicationName>iewc-eapi-may12</applicationName>
+						<applicationName>iewc-taxrequest-eapi</applicationName>
 						<workers>${workers}</workers>
 						<workerType>${workerType}</workerType>
 						<objectStoreV2>true</objectStoreV2>
