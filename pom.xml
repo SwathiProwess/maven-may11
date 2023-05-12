@@ -39,9 +39,9 @@
 						<muleVersion>4.4.0</muleVersion>
 						<connectedAppClientId>${connectedAppClientId}</connectedAppClientId>
 						<connectedAppClientSecret>${connectedAppClientSecret}</connectedAppClientSecret>
+						<environment>${environment}</environment>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<applicationName>iewc-eapi-may12</applicationName>
-						<environment>${environment}</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
