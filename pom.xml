@@ -39,11 +39,11 @@
 						<muleVersion>4.4.0</muleVersion>
 						<connectedAppClientId>${connectedAppClientId}</connectedAppClientId>
 						<connectedAppClientSecret>${connectedAppClientSecret}</connectedAppClientSecret>
-						<environment>${environmentsb}</environment>
+						<environment>Sandbox</environment>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<applicationName>iewc-eapi-may12</applicationName>
-						<workers>1</workers>
-						<workerType>MICRO</workerType>
+						<workers>${workers}</workers>
+						<workerType>${workerType}</workerType>
 						<objectStoreV2>true</objectStoreV2>
 						<properties>
 							<maven.compiler.target>1.8</maven.compiler.target>
