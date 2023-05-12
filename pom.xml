@@ -39,7 +39,7 @@
 						<muleVersion>4.4.0</muleVersion>
 						<connectedAppClientId>${connectedAppClientId}</connectedAppClientId>
 						<connectedAppClientSecret>${connectedAppClientSecret}</connectedAppClientSecret>
-						<environment>${environment}</environment>
+						<environment>${environmentsb}</environment>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<applicationName>iewc-eapi-may12</applicationName>
 						<workers>1</workers>
