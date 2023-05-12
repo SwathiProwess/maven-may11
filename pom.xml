@@ -37,15 +37,11 @@
 				<configuration>
 					<cloudHubDeployment>
 						<muleVersion>4.4.0</muleVersion>
-						<connectedAppClientId>cd8a539f65464c4ca8ceec91b1105ba2</connectedAppClientId>
-																		  						
-
-						<connectedAppClientSecret>aCBC8E5197624A3F810951551E15aF7f</connectedAppClientSecret>
-																							    
-
+						<connectedAppClientId>${connectedAppClientId}</connectedAppClientId>
+						<connectedAppClientSecret>${connectedAppClientSecret}</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						<applicationName>iewc-test-eapi</applicationName>
-						<environment>Sandbox</environment>
+						<applicationName>iewc-eapi-may11</applicationName>
+						<environment>${environment}</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
